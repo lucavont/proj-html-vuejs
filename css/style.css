@@ -1,0 +1,113 @@
+* {
+    font-family: 'Padauk', sans-serif;
+}
+
+.hero {
+    background-image: url("../img/1-hero-image.png");
+    padding-top: 20px;
+    height: 750px;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.hero li {
+    align-self: center;
+    cursor: pointer;
+}
+
+.hero li:nth-child(5)::after {
+    content: 'apply';
+    text-transform: uppercase;
+    border: 1px solid #ffa837;
+    color: #ffa837;
+    font-size: 12px;
+    border-radius: 10%;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hero button {
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.blue {
+    background-color: #0369d7;
+    border-color: #0369d7;
+}
+
+.orange {
+    background-color: #ffa837;
+    border-color: #ffa837;
+}
+
+.hero img {
+    height: 40px;
+}
+
+.hero-text {
+    color: white;
+    height: 70%;
+}
+
+.hero-text h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.expectations {
+    background-image: url('../img/agency-seo-desk-front-800x380.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 830px;
+    padding-top: 50px;
+    background-color: #f8f8f8;
+}
+
+.expectations h2,
+.expectations h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.expectations p {
+    text-align: center;
+}
+
+.my-card {
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.my-card i {
+    color: #eca447;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my-card p {
+    font-size: 14px;
+}
+
+.my-cards {
+    padding-top: 20px;
+}
+
+.my-p {
+    font-size: 16px;
+}
