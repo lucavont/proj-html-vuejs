@@ -37,22 +37,35 @@
     padding-right: 5px;
 }
 
-.hero button {
+.hero button,
+.our-work button,
+.our-plans button {
     border-radius: 50px;
     text-transform: uppercase;
-    color: white;
     font-weight: 900;
     font-size: 12px;
+}
+
+.text-white {
+    color: white;
 }
 
 .blue {
     background-color: #0369d7;
     border-color: #0369d7;
+    color: white;
 }
 
 .orange {
     background-color: #ffa837;
     border-color: #ffa837;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    border-color: black;
+    color: black;
 }
 
 .hero img {
@@ -78,12 +91,19 @@
 }
 
 .expectations h2,
-.expectations h3 {
+.expectations h5,
+.top-services h2,
+.top-services h5,
+.our-work h2,
+.our-plans h2 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
-.expectations p {
+.expectations p,
+.top-services p,
+.our-work p,
+.our-plans p {
     text-align: center;
 }
 
@@ -110,4 +130,120 @@
 
 .my-p {
     font-size: 16px;
+}
+
+.top-services {
+    background-image: url('../img/pattern_background.png');
+    background-size: cover;
+    background-color: #051642;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.top-services h5,
+.top-services h2,
+.top-services p {
+    color: white;
+}
+
+.my-card-blue {
+    background-color: #071B50;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.top-services a {
+    color: #eca447;
+}
+
+.our-work {
+    padding-top: 50px;
+    height: 650px;
+}
+
+.our-work img {
+    margin: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.our-plans {
+    background-image: url('../img/background1.jpg');
+    background-size: cover;
+}
+
+.our-work button {
+    margin-top: 40px;
+}
+
+.our-plans {
+    padding-top: 50px;
+    height: 600px;
+}
+
+.price {
+    position: relative;
+    width: 80px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
+    margin-bottom: 40px;
+}
+
+.price p,
+.price i {
+    position: absolute;
+}
+
+.price i {
+    font-size: 10px;
+    bottom: 50%;
+    left: 10%;
+    top: 30%;
+    padding: 0;
+    color: black;
+}
+
+.price p:nth-child(3) {
+    right: 0;
+    font-size: 8px;
+    color: #0369d7;
+    top: 25%;
+    right: 25%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.price p:nth-child(4) {
+    bottom: 0;
+    right: 5%;
+    margin: 0;
+    font-size: 8px;
+    font-style: italic;
+}
+
+.price p:nth-child(2) {
+    color: #0369d7;
+    left: 20%;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-cards-our-plans h5 {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-cards-our-plans button {
+    margin-bottom: 20px;
+}
+
+.my-cards.my-cards-our-plans {
+    margin-top: 30px;
 }
