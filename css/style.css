@@ -161,6 +161,10 @@
     color: white;
 }
 
+a>.my-arrow {
+    font-size: 10px;
+}
+
 .my-card-blue {
     background-color: #071B50;
     position: relative;
@@ -304,7 +308,7 @@
 }
 
 .italic-p {
-    font-family: font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     ;
     font-style: italic;
 }
@@ -367,7 +371,7 @@
 }
 
 .footer {
-    height: 300px;
+    height: 320px;
     text-align: center;
 }
 
@@ -383,6 +387,9 @@
 
 .footer i {
     margin-top: 20px;
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .footer a {
