@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -203,55 +205,73 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h3></h3>
-                        <p></p>
+                        <h2>Our News</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>accusantium doloremque laudantium.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-3">
+                <div class="row my-cards d-flex justify-content-center">
+                    <div class="col-lg-3 my-card bg-grey">
+                        <img src="img/related-service-2-320x202.jpg" alt="">
+                        <h6>Why You Need A SEO Agency Now</h6>
+                        <p class="smaller-p">November 1st, 2017</p>
+                        <p>ALorem ipsum dolor sit amet, consecteur adipiscing elit. In et scelerisque sem. Nunc molestie neque ague, at gravida mi blandit</p>
                     </div>
-                    <div class="col-lg-3"></div>
-                    <div class="col-lg-3"></div>
+                    <div class="col-lg-3 my-card bg-grey">
+                        <img src="img/related-service-4-320x202.jpg" alt="">
+                        <h6>SEO Tips For Your Startup</h6>
+                        <p class="smaller-p">November 1st, 2017</p>
+                        <p>ALorem ipsum dolor sit amet, consecteur adipiscing elit. In et scelerisque sem. Nunc molestie neque ague, at gravida mi blandit</p>
+                    </div>
+                    <div class="col-lg-3 my-card bg-grey">
+                        <img src="img/blog-post-6-320x202.jpg" alt="">
+                        <h6>Image Optimization For Your Site</h6>
+                        <p class="smaller-p">November 1st, 2017</p>
+                        <p>ALorem ipsum dolor sit amet, consecteur adipiscing elit. In et scelerisque sem. Nunc molestie neque ague, at gravida mi blandit</p>
+                    </div>
+
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <button></button>
-                    </div>
+                <div class="row d-flex justify-content-center">
+                    <button type="button" class="btn btn-warning orange d-flex">GO TO NEWS</button>
                 </div>
             </div>
         </section>
-        <section class="riviews">
+        <section class="reviews">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h3></h3>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <h2>What Our Clients Say</h2>
                     </div>
                     <div class="col-lg-12">
-                        <img src="" alt="">
-                        <p></p>
-                        <h6></h6>
-                        <p></p>
-                        <i></i>
+                        <img src="img/testimonials-2.jpg" alt="">
+                        <p class="italic-p">Ability proceeds from a fusion of skills, knowledge, understanding and imagination, consolidated by experience.</p>
+                        <div class="who-is">
+                            <h6 class="inline sans-bold">Luis Desalvo</h6>
+                            <p class="inline sans">CREO TECH</p>
+                        </div>
+                        <div class="slide-dots">
+                            <i class="fas fa-circle"></i>
+                            <i class="far fa-circle"></i>
+                        </div>
                     </div>
                 </div>
+                <hr>
                 <div class="row">
-                    <div class="col-lg-3"><img src="" alt=""></div>
-                    <div class="col-lg-3"><img src="" alt=""></div>
-                    <div class="col-lg-3"><img src="" alt=""></div>
-                    <div class="col-lg-3"><img src="" alt=""></div>
+                    <div class="col-lg-3"><img src="img/clients_partner_5-200x202.png" alt=""></div>
+                    <div class="col-lg-3"><img src="img/clients_partner_6-200x202.png" alt=""></div>
+                    <div class="col-lg-3"><img src="img/clients_partner_1-200x202.png" alt=""></div>
+                    <div class="col-lg-3"><img src="img/clients_partner_2-200x202.png" alt=""></div>
                 </div>
             </div>
         </section>
         <section class="consult">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h3></h3>
-                        <p></p>
+                    <div class="col-lg-12 translate">
+                        <h2>Start Your Free Consultation</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>accusantium doloremque laudantium.</p>
+                        <button type="button" class="btn btn-warning orange">CONTACT US NOW</button>
                     </div>
-                </div>
-                <div class="row">
-                    <button></button>
+
                 </div>
             </div>
         </section>
@@ -259,22 +279,30 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <img src="" alt="">
+                        <img src="/img/logo_seo_1x.png" alt="">
                     </div>
                 </div>
                 <div class="row">
-                    <ul>
-                        <li></li>
-                    </ul>
+                    <div class="col-lg-12">
+                        <ul>
+                            <li v-for="name in topUl">{{name.name}}</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="row">
-                    <p></p>
+                    <div class="col-lg-12">
+                        <p>&copy; Copyright 2012 - 2020 &vert; Avada Theme by <a href="#">Luca Cavretti</a> &vert; All Rights Reserved &vert; Powered by
+                            <a href="#">Boolean</a>
+                        </p>
+                    </div>
                 </div>
                 <div class="row">
-                    <i>face</i>
-                    <i>insta</i>
-                    <i>twitter</i>
-                    <i>youtube</i>
+                    <div class="col-lg-12">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
                 </div>
             </div>
         </section>
